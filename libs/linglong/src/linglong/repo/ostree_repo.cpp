@@ -1239,6 +1239,7 @@ OSTreeRepo::listRemote(const package::FuzzyReference &fuzzyRef) const noexcept
           .description = item->description,
           .id = item->app_id,
           .kind = item->kind,
+          .packageInfoV2Module = item->module,
           .name = item->name,
           .runtime = item->runtime,
           .size = item->size,
